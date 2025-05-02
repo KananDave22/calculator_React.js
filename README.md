@@ -1,12 +1,48 @@
-# React + Vite
+Simple Calculator App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and responsive calculator web application built with React.js and Tailwind CSS. This calculator performs basic arithmetic operations such as addition, subtraction, multiplication, and division.
 
-Currently, two official plugins are available:
+## 🛠️ Built With
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [React.js](https://reactjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
 
-## Expanding the ESLint configuration
+## 🚀 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Responsive and mobile-friendly UI
+- Perform basic arithmetic operations:
+  - Addition
+  - Subtraction
+  - Multiplication
+  - Division
+- Clear and delete functionality
+- Real-time result updates
+
+## 📦 Installation
+
+1. Clone the repository
+
+   git clone https://github.com/KananDave22/calculator-app.git
+   cd calculator-app
+
+2. Install Dependencies
+   npm install
+
+3. Start the development server
+   npm start
+
+## 📦 Folder Structure
+
+calculator-app/
+├── public/
+├── src/
+│   ├── components/
+│   ├── App.jsx
+│   ├── index.js
+│   └── ...
+├── tailwind.config.js
+├── package.json
+└── ...
+
+✨ Project Live Link You can view the live project: https://calculator-react-js-theta-two.vercel.app/
+Disclaimer This project has been created solely for learning purposes and is not intended for commercial use.
